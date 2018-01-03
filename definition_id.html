@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="author" content="Caroline Fitz, Simon Arsenic, Laure Eole">
+    <meta name="title" content="Tags html">
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <font size="4">
+
+    <h1>id=</h1>
+
+    <blockquote><i><b>id</b></i> n'est pas une balise, mais un <u>attribut</u>. Il permet de donner un identifiant unique à une balise, ce qui sera utile pour d'autres parties de code (si l'on veut le manipuler grâce à un script, le mettre en forme avec une feuille de style, le cibler pour un lien...).<br>
+    </blockquote>
+    <h3>Utilisation : <small>lignes 41, 44 & 45</small></h3>
+
+    <!-- Textarea crée un cadre dans lequel rien ne sera interprété, l'affichage est littéral. Les balises sont donc apparentes, les espaces, tabulations et retours à la ligne apparaissent tels quels.-->
+      <textarea cols="60" rows="14">
+36 Menu :<ul>
+37  <li><a href="#chap1">Chapitre 1 : Historique</a></li>
+38  <li><a href="#chap2">Chapitre 2 : Versions</a></li>
+39 </ul>
+40
+41 <h2 id="chap1">I. Historique</h2>
+42   <p>En août 1991, lorsque Tim Berners-Lee annonce publiquement le Web sur Usenet, il ne cite que le langage SGML, mais donne l'url d'un document ayant l'extension de fichier html. </p>
+43
+44 <h2 id="chap2">II. Versions</h2>
+45   <img src="images\logo_html5.png" id="html5">
+</textarea>
+
+  <h5>Ce qui Donne :</h3>
+    <table border="1" width="500"><tr><td><font size="2">Menu :<ul>
+      <li><a href="#chap1">Chapitre 1 : historique</a></li>
+      <li><a href="#chap2">Chapitre 2</a></li>
+    </ul>
+    <h4 id="chap1">I. Historique</h4>
+      <p>En août 1991, lorsque Tim Berners-Lee annonce publiquement le Web sur Usenet, il ne cite que le langage SGML, mais donne l'url d'un document ayant l'extension de fichier html. </p>
+    <h4 id="chap2">II. Versions</h4>
+    <img src="images\logo_html5.png" id="html5">
+  </table>
+
+  </body>
+</html>
