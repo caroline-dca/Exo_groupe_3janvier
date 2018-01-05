@@ -8,23 +8,27 @@
   <body>
     <font size="4">
     <h1>&lt;form&gt;</h1>
-    <blockquote>Pour créer un formulaire avec une interaction utilisateur.</blockquote>
+    <blockquote>Pour créer un formulaire avec une interaction utilisateur. Les balises <i><b>&lt;form&gt;</b></i> <i><b>&lt;/form&gt;</b></i> englobent tous les éléments du formulaire. Ses attributs sont indispensables pour traiter les informations recueillies auprès de l'utilisateur : <br>
+    <ul>
+      <li> <i><b>action</b></i> est indispensable dans l'utilisation normale d'un formulaire pour l'envoi des données entrées par l'utilisateur, et donc pour leur traitement. On y renseigne l'url <i><b>action=""</b></i>
+    Indispensable également, l'attribut <i><b>method=""</b></i>, qui accepte soit <i><b>post</b></i>, soit <i><b>get</b></i></blockquote>
     <h3>Utilisation :</h3>
-      <textarea cols="60" rows="8"><form>
-  <button type="button">Appuie ici !</button>
+      <textarea cols="60" rows="8"><form method="post" action="traitement.php">
   <select>
     <option value="oui">Oui</option>
     <option value="non">Non</option>
     <option value="demain">Demain</option>
   </select>
+  <button type="button">Valider</button>
 </form></textarea>
         <h5>Ce qui Donne :</h3>
       <form>
-<button type="button">Appuie ici !</button><select>
-  <option value="oui">Oui</option>
-  <option value="non">Non</option>
-  <option value="demain">Demain</option>
-</select>
+        <select>
+          <option value="oui">Oui</option>
+          <option value="non">Non</option>
+          <option value="demain">Demain</option>
+        </select>
+        <button type="button">Valider</button>
       </form>
   </body>
 </html>
