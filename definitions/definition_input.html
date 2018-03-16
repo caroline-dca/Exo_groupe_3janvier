@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta name="author" content="Caroline Fitz, Simon Arsenic, Laure Eole">
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <font size="4">
+    <h1>&lt;input&gt;</h1>
+    <blockquote>C'est un élément passe-partout de formulaire, en balise unique, dont l'apparence et l'utilisation sont déterminés par la valeur de l'attribut <em>type</em> :
+      <ul>
+        <ol><em>type="text"</em> Ligne de saisie d'une ligne.</ol>
+        <ol><em>type="button"</em> Bouton.</ol>
+        <ol><em>type="submit"</em> Bouton spécial pour envoi des données.</ol>
+        <ol><em>type="reset"</em> Bouton de réinitialisation (label automatique).</ol>
+        <ol><em>type="radio"</em> Cases à cocher à un seul choix (ronds).</ol>
+        <ol><em>type="checkbox"</em> Cases à cocher multi-choix (carrés).</ol>
+        <ol><em>type="color"</em> Bouton pour choisir une couleur : ouvre une fenêtre avec une palette de couleurs permettant de choisir une autre couleur.</ol>
+        <ol><em>type="date"</em> Saisie à la main, par flèches ou sur calendrier d'une date.</ol>
+        <ol><em>type="email"</em> Ligne de saisie pour email.</ol>
+        <ol><em>type="number"</em>. Champ de saisie réservé aux nombres, avec flèches pour monter/descendre.</ol>
+      </ul>
+      </blockquote>
+    <h3>Utilisation :</h3>
+      <textarea cols="100" rows="16">
+Prénom : <input type="text" name="prenom"><br>
+Pseudo : <input type="text" name="pseudo" value="pseudo ACS"><br>
+Mail : <input type="email" name="email"><br>
+Date de naissance : <input type="date" name="anniv" min="1950-01-01" max="2018-01-01"><br>
+Nb de frères & soeurs : <input type="number" name="fratrie" min="0" max="10"><br>
+Couleur préférée : <input type="color" name="favcolor" value="#3129a3"><br>
+Que faites-vous le soir ?<br>
+<input type="checkbox" name="loisir_jeu" value="jeu"> Jeux<br>
+<input type="checkbox" name="loisir_lecture" value="velo"> Livres <br>
+<input type="checkbox" name="loisir_tele" value="pied"> Télévision <br>
+Comment venez-vous le matin ?<br>
+<input type="radio" name="trajet" value="voiture"> Voiture<br>
+<input type="radio" name="trajet" value="velo"> Vélo <br>
+<input type="radio" name="trajet" value="pied"> A pied <br>
+<input type="button" onclick="alert('Bonne année !')" value="Cliquez ici"><br>
+<input type="submit" value="Soumettre"><input type="reset"><br></textarea>
+    <blockquote>
+Prénom : <input type="text" name="prenom"><br>
+Pseudo : <input type="text" name="pseudo" value="pseudo ACS"><br>
+Mail : <input type="email" name="email"><br>
+Date de naissance : <input type="date" name="anniv" min="1950-01-01" max="2018-01-01"><br>
+Nb de frères & soeurs : <input type="number" name="fratrie" min="0" max="10"><br>
+Couleur préférée : <input type="color" name="favcolor" value="#3129a3"><br>
+Que faites-vous le soir ?<br>
+<input type="checkbox" name="loisir_jeu" value="jeu"> Jeux<br>
+<input type="checkbox" name="loisir_lecture" value="velo"> Livres <br>
+<input type="checkbox" name="loisir_tele" value="pied"> Télévision <br>
+Comment venez-vous le matin ?<br>
+<input type="radio" name="trajet" value="voiture"> Voiture<br>
+<input type="radio" name="trajet" value="velo"> Vélo <br>
+<input type="radio" name="trajet" value="pied"> A pied <br>
+<input type="button" onclick="alert('Bonne année !')" value="Cliquez ici"><br>
+<input type="submit" value="Soumettre"><input type="reset"><br>
+    </blockquote>
+  </body>
+</html>

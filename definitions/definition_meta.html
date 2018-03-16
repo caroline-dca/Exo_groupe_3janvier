@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta name="author" content="Caroline Fitz, Simon Arsenic, Laure Eole">
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <font size="4">
+    <h1>&lt;meta&gt;</h1>
+    <blockquote>
+      <p>L'élément HTML &lt;meta&gt; représente toute information de métadonnées qui ne peut pas être représentée par un des éléments (&lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; ou &lt;title&gt;)</p>
+      <p>Selon les attributs qui sont renseignés, la métadonnée peut être de différentes sortes :
+        <ul>
+          <li>si name est renseigné, c'est une métadonnée de document s'appliquant à la page entière,</li>
+          <li>si http-equiv est renseigné, c'est une information transmise au serveur web indiquant comment la page doit être servie (pragma directive en anglais),</li>
+          <li>si charset est renseigné, c'est une déclaration sur le jeu de caractères, autrement dit l'ensemble de caractères utilisés pour la version sérialisée de la page web,</li>
+          <li>si itemprop est renseigné, c'est une métadonnée définie par l'utilisateur, gérée de manière transparente par l'agent utilisateur car la signification de cette métadonnée est spécifique à l'utilisateur. </li>
+        </ul>
+      </p>
+    </blockquote>
+
+    <h3>Quelques attributs :</h3>
+
+      <table border="1">
+          <tr>
+              <th width=20px align="left">Nom de l'attribut</th>
+              <th width=100px align="center">Description</th>
+          </tr>
+
+          <tr>
+              <td width=150px>charset</td>
+              <td width=500px>Cet attribut déclare l'encodage utilisé par la page. Il peut être outrepassé de manière locale en utilisant l'attribut lang d'un élément. La valeur de cet attribut est une chaîne de caractères et doit être l'un des noms MIME préférés d'un encodage comme spécifié par l'IANA. Bien que le standard ne fixe pas d'encodage particulier, il fournit cependant quelques recommandations :
+              <ul><li>Les auteurs sont invités à utiliser UTF-8.</li></ul></td>
+          </tr>
+          <tr>
+              <td width=150px>content</td>
+              <td width=500px>Cet attribut fournit la valeur associée avec l'attribut http-equiv ou l'attribut name suivant le contexte utilisé.</td>
+          </tr>
+          <tr>
+              <td width=150px>http-equiv</td>
+              <td width=500px>Cet attribut pouvant prendre des valeurs pré-définies représente un objet pouvant modifier le comportement des serveurs ou des agents utilisateur. Sa valeur est définie grâce à l'attribut content.</td>
+          </tr>
+          <tr>
+              <td width=150px>name</td>
+              <td width=500px>Cet attribut définit le nom d'un métadonnée au niveau du document. Il ne doit pas être utilisé si l'un des attributs  itemprop, http-equiv ou charset est utilisé.
+              Le nom de la métadonnée document est associé à une valeur contenue dans l'attribut content.</td>
+          </tr>
+
+        </table>
+
+        <p> Plus d'informations sur les attributs <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/meta">ici</a>
+  </body>
+</html>
