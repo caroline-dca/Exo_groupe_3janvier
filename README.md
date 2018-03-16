@@ -7,4 +7,4 @@ Exercice de groupe :
 - Menu avec liste des Balises
 - Iframe pour afficher la définition sur clic
 
-[Preview](https://cdn.rawgit.com/caroline-dca/Exo_groupe_3janvier/master/index.html) (Ouvrez dans un nouvel onglet)
+[Preview](https://cdn.rawgit.com/caroline-dca/Exo_groupe_3janvier/754dd180/index.html) (Ouvrez dans un nouvel onglet)
