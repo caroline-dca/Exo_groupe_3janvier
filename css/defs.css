@@ -1,0 +1,33 @@
+*
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: justify;
+}
+
+textarea
+{
+  font-family: 'Inconsolata', monospace;
+  font-size: 1em;
+  text-align: left;
+}
+
+table
+{
+  border:0;
+}
+
+h3
+{
+  font-size: 1.5em;
+}
+
+div h3
+{
+  font-size: 1.3em;
+
+}
+
+div
+{
+  margin: 0 0 0 40px;
+}

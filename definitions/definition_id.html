@@ -3,6 +3,8 @@
   <head>
     <meta name="author" content="Caroline Fitz, Simon Arsenic, Laure Eole">
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Inconsolata|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/defs.css">
   </head>
 
   <body>
@@ -14,6 +16,7 @@
     </blockquote>
     <h3>Utilisation : <small>lignes 41, 44 & 45</small></h3>
 
+    <!-- Textarea crée un cadre dans lequel rien ne sera interprété, l'affichage est littéral. Les balises sont donc apparentes, les espaces, tabulations et retours à la ligne apparaissent tels quels.-->
       <textarea cols="60" rows="13">
 36 Menu :<ul>
 37  <li><a href="#chap1">Chapitre 1 : Historique</a></li>
@@ -26,19 +29,21 @@
 44 <h2 id="chap2">II. Versions</h2>
 45   <img src="images\logo_html5.png" id="html5"></textarea>
 
-  <h5>Ce qui Donne :</h3>
-    <table border="1" width="500"><tr><td><font size="2">Menu :<ul>
-        <li><a href="#chap1">Chapitre 1 : historique</a></li>
-        <li><a href="#chap2">Chapitre 2</a></li>
-      </ul>
-      <h4 id="chap1">I. Historique</h4>
-        <p>En août 1991, lorsque Tim Berners-Lee annonce publiquement le Web sur Usenet, il ne cite que le langage SGML, mais donne l'url d'un document ayant l'extension de fichier html. </p>
-      <h4 id="chap2">II. Versions</h4>
-      <img src="images\logo_html5.png" id="html5">
-    </table>
-    <p>
-      Les <i><b>id</b></i> sur les titres de chapitres ont permis de créer des liens internes. Les liens pointent sur l'id. <br>
-      Par ailleurs l'<i><b>id</b></i> de l'image pourrait servir à agir dessus.
-    </p>
+  <h3>Ce qui donne :</h3>
+    <div>
+      <table border="1" width="500"><tr><td><font size="2">Menu :<ul>
+          <li><a href="#chap1">Chapitre 1 : historique</a></li>
+          <li><a href="#chap2">Chapitre 2</a></li>
+        </ul>
+        <h4 id="chap1">I. Historique</h4>
+          <p>En août 1991, lorsque Tim Berners-Lee annonce publiquement le Web sur Usenet, il ne cite que le langage SGML, mais donne l'url d'un document ayant l'extension de fichier html. </p>
+        <h4 id="chap2">II. Versions</h4>
+        <img src="../images/logo_html5.png" id="html5">
+      </table>
+      <p>
+        Les <i><b>id</b></i> sur les titres de chapitres ont permis de créer des liens internes. Les liens pointent sur l'id. <br>
+        Par ailleurs l'<i><b>id</b></i> de l'image pourrait servir à agir dessus.
+      </p>
+    </div>
   </body>
 </html>

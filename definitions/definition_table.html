@@ -4,6 +4,8 @@
     <meta name="author" content="Caroline Fitz, Simon Arsenic, Laure Eole">
     <meta name="title" content="Tags html">
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Inconsolata|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/defs.css">
   </head>
 
   <body>
@@ -14,41 +16,40 @@
 	<br>Celle-ci encardre les balises TR et TH.</blockquote>
     <h3>Utilisation :</h3>
 
-    <textarea cols="60" rows="5">
-<TABLE border="5" width="60%" align="center" bgcolor="yellow" valign="baseline">
-		<TR>
+    <textarea cols="60" rows="15">
+<table border="5" width="60%" bgcolor="pink">
+  <tr>
+  	<th> 2017 </th>
+  	<th> 2018 </th>
+  	<th> 2019 </th>
+  	<th> 2020 </th>
+  </tr>
 
-	<TH> 2017
-	<TH> 2018
-	<TH> 2019
-	<TH> 2020
+  <tr>
+  	<td> Version 1 </td>
+  	<td> Version 2 </td>
+  	<td> Version 3 </td>
+  	<td> Version 4 </td>
+  </tr>
+</table></textarea>
 
-</TR>
+    <h3>Ce qui donne :</h3>
+      <div>
+        <table border="5" width="60%" bgcolor="pink">
+          <tr>
+          	<th> 2017 </th>
+          	<th> 2018 </th>
+          	<th> 2019 </th>
+          	<th> 2020 </th>
+          </tr>
 
-<TR align="center">
-
-	<TD> Version 1 </td>
-	<TD> Version 2
-	<TD> Version 3
-	<TD> Version 4
-</TABLE>
-	  </textarea>
-    <TABLE border="5" width="60%" align="center" bgcolor="yellow" valign="baseline">
-	  		<TR>
-
-			<TH> 2017
-			<TH> 2018
-			<TH> 2019
-			<TH> 2020
-
-		</TR>
-
-		<TR align="center">
-
-			<TD> Version 1
-			<TD> Version 2
-			<TD> Version 3
-			<TD> Version 4
-	  </TABLE>
+          <tr>
+          	<td> Version 1 </td>
+          	<td> Version 2 </td>
+          	<td> Version 3 </td>
+          	<td> Version 4 </td>
+          </tr>
+        </table>
+      </div>
   </body>
 </html>
